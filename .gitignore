@@ -11,3 +11,4 @@ pom.xml.asc
 /doc
 /gh-pages
 docker/db/volumes/*
+/.cpcache

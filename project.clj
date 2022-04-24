@@ -1,13 +1,13 @@
-(defproject metosin/porsas "0.0.1-alpha13"
+(defproject metosin/porsas "0.0.1-alpha14"
   :description "Spike Lee for Fast DB-access with Clojure"
-  :url "https://github.com/metosin/porsas"
+  :url "https://github.com/arnaudgeiser/porsas"
   :deploy-repositories [["releases" :clojars]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo
             :comments "same as Clojure"}
   :scm {:name "git"
-        :url "https://github.com/metosin/porsas"}
+        :url "https://github.com/arnaudgeiser/porsas"}
   :dependencies [[org.postgresql/postgresql "42.3.1"]
                  [io.vertx/vertx-pg-client  "4.2.1"]]
   :profiles {:dev {:global-vars {*warn-on-reflection* true}
